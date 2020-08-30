@@ -89,8 +89,14 @@ JavaScript勉強用プロジェクト
 
 ## Jenkins
 
-```
-> npm install
-> npm run test
-> npm run build
-```
+- 以下の3コマンドを個別にコマンド実行  
+  ※Windows版Jekinsだと3つの「Windowsバッチコマンドの実行」でそれぞれ実行するイメージ
+  ```
+  > npm install
+  > npm run test
+  > npm run build
+  ```
+- Windowsで「Windowsバッチコマンドの実行」内で `npm` コマンドを使用する際の注意
+  - `npm` コマンドは `npm.cmd` で実現されており、作りが悪く、`npm.cmd` の終了時に呼び出し元のバッチコマンド自体も終了してしまう。
+  - そのため、`call npm ～` のように記載する必要あり。
+  - `npm` コマンドが最後のコマンド場合は `call` は不要。
