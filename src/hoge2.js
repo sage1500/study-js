@@ -1,3 +1,5 @@
+import "./style.css";
+
 import { greet } from './modules/foo.js';
 import { Calc } from './modules/calc.js';
 import { sg } from './modules/sg.js';

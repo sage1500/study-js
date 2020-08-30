@@ -31,7 +31,11 @@ JavaScript勉強用プロジェクト
 > npm install css-loader style-loader -D
 ```
 
-> CSS中にURLがあるケースがWindowsだと（？）、うまく動かない。
+### CSSを圧縮する
+
+```
+> npm install optimize-css-assets-webpack-plugin -D
+```
 
 ### 画像をバンドルする
 
@@ -39,9 +43,6 @@ JavaScript勉強用プロジェクト
 > npm install url-loader -D
 > npm install file-loader -D
 ```
-
-> CSS中にURLがあるケースがWindowsだと（？）、うまく動かない。
-
 
 ### Babel を使う場合
 
