@@ -87,4 +87,10 @@ JavaScript勉強用プロジェクト
 > npm install
 ```
 
+## Jenkins
 
+```
+> npm install
+> npm run test
+> npm run build
+```
