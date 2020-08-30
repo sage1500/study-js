@@ -1,0 +1,32 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "css-loader": "^4.2.2",
+    "eslint": "^7.7.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-jest": "^23.20.0",
+    "file-loader": "^6.0.0",
+    "jest": "^26.4.2",
+    "regenerator-runtime": "^0.13.7",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
