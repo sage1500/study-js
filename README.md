@@ -1,11 +1,13 @@
 JavaScript勉強用プロジェクト
 ---
 
-### プロジェクト開始
+## プロジェクト開始
 
 ```
 > npm init -y
 ```
+
+## 初回構築
 
 ### Webpack
 ```
@@ -77,3 +79,12 @@ JavaScript勉強用プロジェクト
 ### Windowsでやる場合の注意
 - webpack4 では、webpack.config.js がなくても動くらしいが、
   Windows だとファイルパスの表現の問題で結局必要になる。
+
+
+## git から取得した後
+
+```
+> npm install
+```
+
+
